@@ -1,5 +1,5 @@
 # CodeSys_Sorting_By_Weight
-Plc program developed with **CodeSys** wiht **Structured Text** and a modular programming approach, to control a box sorting machine by weight with **FactoryIO** through and **OPC server**.
+Plc program developed with **CodeSys** in **Structured Text** and a modular programming approach, to control a box sorting machine by weight with **FactoryIO** through and **OPC server**.
 ## Project Description
 The process consist of **sorting boxes by their size** through a scale sensor placed underneath the "Load Scale Conveyor". There are three possible paths for the boxes to exit the process. 
 Every box path depends on the **signal measured** by the scale sensor. Once the measurement has been read, a command will be sent to the "box selector" to guide them to their right path.
